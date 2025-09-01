@@ -1,0 +1,73 @@
+body {
+    font-family: "system-ui";
+    margin: 0;
+    padding: 0;
+}
+
+.glav_akkardion_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: black;
+    width: 500px;
+    height: 350px;
+    color: white;
+    border: gray 2px solid;
+    border-radius: 10px;
+
+}
+
+h6 {
+    font-size: 15px;
+
+}
+
+p {
+    font-size: 12px;
+}
+
+.akkardion-item {
+    width: 400px;
+    height:70px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.akkardion-header {
+    height: 20px;
+}
+
+.akkardion-content {
+    transition:all 1s ease;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 1;
+    padding: 0 5px;
+
+}
+.active{
+    transition:1s ease-in-out;
+    max-height: 300px;
+    padding: 5px;
+}
+.svg-tocka{
+    position: absolute;
+    right:300px;
+    top:20px;
+    cursor: grab;
+
+}
+.svg-tocka-2{
+    position: absolute;
+    right:300px;
+    cursor: grab;
+    top:140px;
+}
+.svg-tocka-3{
+    position: absolute;
+    right:300px;
+    cursor: grab;
+    top:255px;
+}
